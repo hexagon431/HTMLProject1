@@ -26,7 +26,19 @@
         <div class="main-body">
             <div class="form-head">
                 <div class="form-container">
+                    <span class="large-text">Have a problem/question? Send us a message!</span>
+                    <div class="input-forms">
+                        <div class="input-field"><span class="input-name">Name (first and last): </span><input type="text" name="name" placeholder="Name" required> <span class="required-star">*</span></div>
+                        <div class="input-field"><span class="input-name">Email: </span><input type="email" name="email" placeholder="Email" required><span class="required-star">*</span></div>
+                        <div class="input-field"><span class="input-name">Subject: </span><input type="text" name="subject" placeholder="Subject"></div>
 
+                        <div class="order-num-select"><span class="input-name">Do you have an order number?</span><input type="radio" name="order-num-selector" value="yes"><span>Yes</span></div>
+                        <div class="order-num-select"><input type="radio" name="order-num-selector" value="no"><span>no</span></div>
+
+                        <div class="input-field"><span class="input-name">Message: </span><input class="message" type="text" name="message" placeholder="Message" required><span class="required-star">*</span></div>
+
+                        <button class="submit">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
