@@ -26,18 +26,20 @@
         <div class="main-body">
             <div class="form-head">
                 <div class="form-container">
-                    <span class="large-text">Have a problem/question? Send us a message!</span>
+                    <span class="large-text">Have a problem or question? Send us a message!</span>
+                    <hr>
+                    <div></div><span class="required-star">* - Required fields</span>
                     <div class="input-forms">
-                        <div class="input-field"><span class="input-name">Name (first and last): </span><input type="text" name="name" placeholder="Name" required> <span class="required-star">*</span></div>
-                        <div class="input-field"><span class="input-name">Email: </span><input type="email" name="email" placeholder="Email" required><span class="required-star">*</span></div>
-                        <div class="input-field"><span class="input-name">Subject: </span><input type="text" name="subject" placeholder="Subject"></div>
+                        <div class="input-field"><span class="input-name">Name (first and last): </span><input class="text-input" type="text" name="name" placeholder="Name" required><span class="required-star">*</span></div>
+                        <div class="input-field"><span class="input-name">Email: </span><input class="text-input" type="email" name="email" placeholder="Email" required><span class="required-star">*</span></div>
+                        <div class="input-field"><span class="input-name">Subject: </span><input class="text-input" type="text" name="subject" placeholder="Subject"></div>
 
-                        <div class="order-num-select"><span class="input-name">Do you have an order number?</span><input type="radio" name="order-num-selector" value="yes"><span>Yes</span></div>
-                        <div class="order-num-select"><input type="radio" name="order-num-selector" value="no"><span>no</span></div>
+                        <div class="input-field email-message"><span class="input-name">Message: </span><textarea rows="20" cols="50"></textarea><span class="required-star">*</span></div>
 
-                        <div class="input-field"><span class="input-name">Message: </span><input class="message" type="text" name="message" placeholder="Message" required><span class="required-star">*</span></div>
+                        <div class="copy-confirm"><span class="input-name">Would you like to receive a copy of this message?</span></div>
+                        <div class="copy-confirm"><input class="radio-yes" type="radio" name="copy-confirm" value="yes"><span class="radio-text">Yes</span><input type="radio" name="copy-confirm" value="no" checked><span class="radio-text">No</span></div>
 
-                        <button class="submit">Submit</button>
+                        <input type="submit">
                     </div>
                 </div>
             </div>

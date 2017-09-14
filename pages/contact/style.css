@@ -29,6 +29,7 @@ body {
     border-bottom: hidden;
     border-top: hidden;
     background-color: #000000;
+    font-family: "Share Tech Mono", monospace
 }
 
 .nav-links {
@@ -72,7 +73,13 @@ body {
     margin-top: 20px;
     background-color: #000000;
     border: solid 3px rgba(206, 206, 206, .7);
-    font-family: "Changa Regular", monospace;
+    font-family: "Share Tech Mono", monospace;
+}
+
+.form-container hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
 }
 
 .form-container {
@@ -82,27 +89,65 @@ body {
 .large-text {
     font-size: 45px;
     font-weight: bold;
-    text-decoration: underline;
     font-family: "Share Tech Mono", monospace;
+    display: flex;
+    text-align: center;
 }
 
 .input-name {
+    margin: 10px 30px 0px 0px;
     font-size:20px;
 }
 
-.submit {
+input[type=submit] {
     font-size: 20px;
     font-family: "Share Tech Mono", monospace;
+}
+
+.text-input {
+    font-size: 20px;
+
+}
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.radio-text {
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .message {
     width: 500px;
-    height: auto;
+    height: 300px;
     font-size: 20px;
+}
+
+.email-message{
+    display: flex;
 }
 
 @media only screen and (max-width: 600px){
     .nav {
+        flex-direction: column;
+    }
+
+    .input-forms{
+        flex-direction: column;
+    }
+
+    .large-text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .form-head {
+        display: flex;
+        width: 100%;
+        height: auto;
         flex-direction: column;
     }
 
