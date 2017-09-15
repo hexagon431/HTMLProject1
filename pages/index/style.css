@@ -1,13 +1,16 @@
+@font-face {
+    font-family: "Share Tech Mono";
+    src: url("../../fonts/ShareTechMono-Regular.ttf");
+
+    font-family: "Broken Planewing";
+    src: url("../../fonts/broken_planew.ttf");
+}
+
 body {
     padding: 0px;
     margin: 0px auto;
     background-color: rgba(6, 6, 6, 0.73);
 }
-
-/*@font-face {
-    font-family: 'Changa Regular';
-    src: url('../../fonts/Changa-Regular.ttf');
-} */
 
 .topbar {
     display: flex;
@@ -58,7 +61,7 @@ body {
     margin-top: 20px;
     background-color: #000000;
     border: solid 3px rgba(206, 206, 206, .7);
-    font-family: "Changa Regular", monospace;
+    font-family: "Share Tech Mono", monospace;
 }
 
 .main-body p {
