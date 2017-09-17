@@ -115,7 +115,7 @@ input[type=submit] {
 
 .radio-text {
     font-size: 20px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
 }
 
 .message {
@@ -124,8 +124,15 @@ input[type=submit] {
     font-size: 20px;
 }
 
-.email-message{
-    display: flex;
+.message textarea{
+    width: 600px;
+    height: 290px;
+}
+
+.input-forms button {
+    margin-top: 15px;
+    width: 70px;
+    height: 30px;
 }
 
 @media only screen and (max-width: 610px){
@@ -164,5 +171,11 @@ input[type=submit] {
     .form-container {
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 777px){
+    .message textarea {
+        width: 300px;
     }
 }

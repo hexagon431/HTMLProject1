@@ -10,7 +10,7 @@
     <div class="centerbox">
         <div class="topbar">
             <div class="nav">
-                <img id="longLogo" src="../../images/logo-long.png">
+                <a href="../index/index.html"><img id="longLogo" src="../../images/logo-long.png"></a>
 
                 <div class="nav-links">
                     <a class="nav-link" href="../index/index.html">Home</a>
@@ -30,16 +30,30 @@
                     <hr>
                     <span class="required-star">* - Required fields</span>
                     <div class="input-forms">
-                        <div class="input-field"><span class="input-name">Name (first and last): </span><input class="text-input" type="text" name="name" placeholder="Name" required><span class="required-star">*</span></div>
-                        <div class="input-field"><span class="input-name">Email: </span><input class="text-input" type="email" name="email" placeholder="Email" required><span class="required-star">*</span></div>
-                        <div class="input-field"><span class="input-name">Subject: </span><input class="text-input" type="text" name="subject" placeholder="Subject"></div>
+                        <div class="input-field">
+                            <span class="input-name">Name (first and last)<span class="required-star">*</span>: </span>
+                            <div class="input"><input class="text-input" type="text" name="name" placeholder="Name" required></div>
+                        </div>
 
-                        <div class="input-field email-message"><span class="input-name">Message: </span><textarea rows="20" cols="50"></textarea><span class="required-star">*</span></div>
+                        <div class="input-field">
+                            <span class="input-name">Email<span class="required-star">*</span>: </span>
+                            <div class="input"><input class="text-input" type="email" name="email" placeholder="Email" required></div>
+                        </div>
+
+                        <div class="input-field">
+                            <span class="input-name">Subject: </span>
+                            <div class="input"><input class="text-input" type="text" name="subject" placeholder="Subject"></div>
+                        </div>
+
+                        <div class="input-field">
+                            <span class="input-name">Message<span class="required-star">*</span>: </span>
+                            <div class="message"><textarea rows="20" cols="50"></textarea></div>
+                        </div>
 
                         <div class="copy-confirm"><span class="input-name">Would you like to receive a copy of this message?</span></div>
                         <div class="copy-confirm"><input class="radio-yes" type="radio" name="copy-confirm" value="yes"><span class="radio-text">Yes</span><input type="radio" name="copy-confirm" value="no" checked><span class="radio-text">No</span></div>
 
-                        <input type="submit">
+                        <button>Send</button>
                     </div>
                 </div>
             </div>
