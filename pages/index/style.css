@@ -106,7 +106,6 @@ body {
 
 .content-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .new-releases-container {
@@ -154,7 +153,7 @@ body {
 .news-container{
     padding: 5px 5px 10px 5px;
     margin-left: 10px;
-    width: 700px;
+    /*width: 700px;*/
     display: flex;
     flex-direction: column;
 
